@@ -1,0 +1,15 @@
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Taks.Core.Repository\bin\Debug\netcoreapp3.1\TaskManager.Core.Repository.deps.json
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Taks.Core.Repository\bin\Debug\netcoreapp3.1\TaskManager.Core.Repository.dll
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Taks.Core.Repository\bin\Debug\netcoreapp3.1\TaskManager.Core.Repository.pdb
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Taks.Core.Repository\bin\Debug\netcoreapp3.1\TaskManager.Core.IRepository.dll
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Taks.Core.Repository\bin\Debug\netcoreapp3.1\TaskManager.Core.Model.dll
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Taks.Core.Repository\bin\Debug\netcoreapp3.1\TaskManager.Core.IRepository.pdb
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Taks.Core.Repository\bin\Debug\netcoreapp3.1\TaskManager.Core.Model.pdb
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Taks.Core.Repository\obj\Debug\netcoreapp3.1\TaskManager.Core.Repository.csproj.AssemblyReference.cache
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Taks.Core.Repository\obj\Debug\netcoreapp3.1\TaskManager.Core.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Taks.Core.Repository\obj\Debug\netcoreapp3.1\TaskManager.Core.Repository.AssemblyInfoInputs.cache
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Taks.Core.Repository\obj\Debug\netcoreapp3.1\TaskManager.Core.Repository.AssemblyInfo.cs
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Taks.Core.Repository\obj\Debug\netcoreapp3.1\TaskManager.Core.Repository.csproj.CoreCompileInputs.cache
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Taks.Core.Repository\obj\Debug\netcoreapp3.1\TaskManager.Core.Repository.csproj.CopyComplete
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Taks.Core.Repository\obj\Debug\netcoreapp3.1\TaskManager.Core.Repository.dll
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Taks.Core.Repository\obj\Debug\netcoreapp3.1\TaskManager.Core.Repository.pdb

@@ -1,0 +1,16 @@
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Taks.Core.Repository\bin\Debug\netcoreapp3.1\Taks.Core.Repository.deps.json
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Taks.Core.Repository\bin\Debug\netcoreapp3.1\Taks.Core.Repository.dll
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Taks.Core.Repository\bin\Debug\netcoreapp3.1\Taks.Core.Repository.pdb
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Taks.Core.Repository\bin\Debug\netcoreapp3.1\Task.Core.IRepository.dll
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Taks.Core.Repository\bin\Debug\netcoreapp3.1\Task.Core.IRepository.pdb
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Taks.Core.Repository\obj\Debug\netcoreapp3.1\Taks.Core.Repository.csproj.AssemblyReference.cache
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Taks.Core.Repository\obj\Debug\netcoreapp3.1\Taks.Core.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Taks.Core.Repository\obj\Debug\netcoreapp3.1\Taks.Core.Repository.AssemblyInfoInputs.cache
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Taks.Core.Repository\obj\Debug\netcoreapp3.1\Taks.Core.Repository.AssemblyInfo.cs
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Taks.Core.Repository\obj\Debug\netcoreapp3.1\Taks.Core.Repository.csproj.CoreCompileInputs.cache
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Taks.Core.Repository\obj\Debug\netcoreapp3.1\Taks.Core.Repository.csproj.CopyComplete
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Taks.Core.Repository\obj\Debug\netcoreapp3.1\Taks.Core.Repository.dll
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Taks.Core.Repository\obj\Debug\netcoreapp3.1\Taks.Core.Repository.pdb
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Taks.Core.Repository\bin\Debug\netcoreapp3.1\Task.Core.Model.dll
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Taks.Core.Repository\bin\Debug\netcoreapp3.1\Task.Core.Model.pdb
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Taks.Core.Repository\bin\Debug\netcoreapp3.1\Task.Core.Model.xml

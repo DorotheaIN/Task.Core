@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.API\Task.Core.API.xml</DocumentationFile>
+    <NoWarn>1701;1702;1591</NoWarn>
+    <WarningLevel>5</WarningLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Task.Core.IService\TaskManager.Core.IService.csproj" />
+    <ProjectReference Include="..\Task.Core.Model\TaskManager.Core.Model.csproj" />
+    <ProjectReference Include="..\Task.Core.Service\TaskManager.Core.Service.csproj" />
+  </ItemGroup>
+
+
+</Project>

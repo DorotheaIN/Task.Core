@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Task.Core.Model</name>
+    </assembly>
+    <members>
+        <member name="M:Task.Core.Model.Helper.UtilConvert.ObjToInt(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Task.Core.Model.Helper.UtilConvert.ObjToInt(System.Object,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <param name="errorValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Task.Core.Model.Helper.UtilConvert.ObjToMoney(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Task.Core.Model.Helper.UtilConvert.ObjToMoney(System.Object,System.Double)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <param name="errorValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Task.Core.Model.Helper.UtilConvert.ObjToString(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Task.Core.Model.Helper.UtilConvert.ObjToString(System.Object,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <param name="errorValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Task.Core.Model.Helper.UtilConvert.ObjToDecimal(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Task.Core.Model.Helper.UtilConvert.ObjToDecimal(System.Object,System.Decimal)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <param name="errorValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Task.Core.Model.Helper.UtilConvert.ObjToDate(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Task.Core.Model.Helper.UtilConvert.ObjToDate(System.Object,System.DateTime)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <param name="errorValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Task.Core.Model.Helper.UtilConvert.ObjToBool(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Love">
+            <summary>
+            爱
+            </summary>
+        </member>
+        <member name="P:Love.Id">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="P:Love.Name">
+            <summary>
+            姓名
+            </summary>
+        </member>
+        <member name="P:Love.Age">
+            <summary>
+            年龄
+            </summary>
+        </member>
+        <member name="P:TaskSet.Id">
+            <summary>
+            任务集主键
+            </summary>
+        </member>
+        <member name="P:TaskSet.Name">
+            <summary>
+            任务集名称
+            </summary>
+        </member>
+        <member name="P:TaskSet.CreaterId">
+            <summary>
+            创造者id
+            </summary>
+        </member>
+        <member name="P:TaskSet.tag">
+            <summary>
+            标签
+            </summary>
+        </member>
+        <member name="P:TaskSet.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+    </members>
+</doc>

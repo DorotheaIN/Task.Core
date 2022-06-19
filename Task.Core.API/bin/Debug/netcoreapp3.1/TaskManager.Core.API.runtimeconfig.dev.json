@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Dorothea\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Dorothea\\.nuget\\packages"
+    ]
+  }
+}

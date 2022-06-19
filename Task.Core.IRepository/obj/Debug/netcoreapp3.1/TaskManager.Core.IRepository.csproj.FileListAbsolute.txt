@@ -1,0 +1,13 @@
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.IRepository\bin\Debug\netcoreapp3.1\TaskManager.Core.IRepository.deps.json
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.IRepository\bin\Debug\netcoreapp3.1\TaskManager.Core.IRepository.dll
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.IRepository\bin\Debug\netcoreapp3.1\TaskManager.Core.IRepository.pdb
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.IRepository\bin\Debug\netcoreapp3.1\TaskManager.Core.Model.dll
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.IRepository\bin\Debug\netcoreapp3.1\TaskManager.Core.Model.pdb
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.IRepository\obj\Debug\netcoreapp3.1\TaskManager.Core.IRepository.csproj.AssemblyReference.cache
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.IRepository\obj\Debug\netcoreapp3.1\TaskManager.Core.IRepository.GeneratedMSBuildEditorConfig.editorconfig
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.IRepository\obj\Debug\netcoreapp3.1\TaskManager.Core.IRepository.AssemblyInfoInputs.cache
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.IRepository\obj\Debug\netcoreapp3.1\TaskManager.Core.IRepository.AssemblyInfo.cs
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.IRepository\obj\Debug\netcoreapp3.1\TaskManager.Core.IRepository.csproj.CoreCompileInputs.cache
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.IRepository\obj\Debug\netcoreapp3.1\TaskManager.Core.IRepository.csproj.CopyComplete
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.IRepository\obj\Debug\netcoreapp3.1\TaskManager.Core.IRepository.dll
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.IRepository\obj\Debug\netcoreapp3.1\TaskManager.Core.IRepository.pdb

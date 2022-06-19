@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Taks.Core.Repository\TaskManager.Core.Repository.csproj" />
+    <ProjectReference Include="..\Task.Core.IRepository\TaskManager.Core.IRepository.csproj" />
+    <ProjectReference Include="..\Task.Core.IService\TaskManager.Core.IService.csproj" />
+  </ItemGroup>
+
+</Project>

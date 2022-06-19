@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SqlSugarCore" Version="5.0.1.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Task.Core.IRepository\TaskManager.Core.IRepository.csproj" />
+    <ProjectReference Include="..\Task.Core.Model\TaskManager.Core.Model.csproj" />
+  </ItemGroup>
+
+</Project>

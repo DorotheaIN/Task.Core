@@ -1,0 +1,14 @@
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.IService\bin\Debug\netcoreapp3.1\Task.Core.IService.deps.json
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.IService\bin\Debug\netcoreapp3.1\Task.Core.IService.dll
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.IService\bin\Debug\netcoreapp3.1\Task.Core.IService.pdb
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.IService\obj\Debug\netcoreapp3.1\Task.Core.IService.csproj.AssemblyReference.cache
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.IService\obj\Debug\netcoreapp3.1\Task.Core.IService.GeneratedMSBuildEditorConfig.editorconfig
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.IService\obj\Debug\netcoreapp3.1\Task.Core.IService.AssemblyInfoInputs.cache
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.IService\obj\Debug\netcoreapp3.1\Task.Core.IService.AssemblyInfo.cs
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.IService\obj\Debug\netcoreapp3.1\Task.Core.IService.csproj.CoreCompileInputs.cache
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.IService\obj\Debug\netcoreapp3.1\Task.Core.IService.dll
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.IService\obj\Debug\netcoreapp3.1\Task.Core.IService.pdb
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.IService\bin\Debug\netcoreapp3.1\Task.Core.Model.dll
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.IService\bin\Debug\netcoreapp3.1\Task.Core.Model.pdb
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.IService\bin\Debug\netcoreapp3.1\Task.Core.Model.xml
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.IService\obj\Debug\netcoreapp3.1\Task.Core.IService.csproj.CopyComplete
