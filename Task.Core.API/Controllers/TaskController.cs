@@ -5,15 +5,20 @@ using System.Linq;
 using System.Threading.Tasks;
 using TaskManager.Core.IService;
 using TaskManager.Core.Service;
+using System.Runtime.InteropServices;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace TaskManager.Core.API.Controllers
 {
+
     [Route("api/[controller]")]
     [ApiController]
     public class TaskController : ControllerBase
     {
+        [DllImport("Calculato.dll", CallingConvention = CallingConvention.Cdecl)]
+        extern static int Sum(int a, int b);
+
         /// <summary>
         /// Sum接口
         /// </summary>
@@ -23,8 +28,7 @@ namespace TaskManager.Core.API.Controllers
         [HttpGet]
         public int Get(int i,int j)
         {
-            ITaskService taskService = new TaskService();
-            return taskService.Sum(i, j);
+            return Sum(i,j);
         }
         /// <summary>
         /// 根据id获取数据
@@ -60,7 +64,5 @@ namespace TaskManager.Core.API.Controllers
             await taskService.Add(model);
             return await taskService.Query(d => d.Id == id);
         }
-
-
     }
 }

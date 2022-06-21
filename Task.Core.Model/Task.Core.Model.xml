@@ -136,7 +136,7 @@
             创建时间
             </summary>
         </member>
-        <member name="P:User.mail">
+        <member name="P:User.Mail">
             <summary>
             用户邮箱
             </summary>

@@ -16,6 +16,28 @@ namespace TaskManager.Core.API.Controllers
         ITodoService todoService = new TodoService();
         IDetailedSetService detailedSetService = new DetailedSetService();
         IUserService userService = new UserService();
+        ICollectService collectService = new CollectService();
+
+        /// <summary>
+        /// 登录
+        /// </summary>
+        /// <param name="mail"></param>
+        /// <param name="pass"></param>
+        /// <returns></returns>
+        [HttpGet("Login")]
+        public async Task<string> Login(string mail, string pass)
+        {
+            User model = await userService.QueryByID(mail);
+            if(pass == model.Password)
+            {
+                return model.Name;
+            }
+            else
+            {
+                return "";
+            }
+        }
+
         /// <summary>
         /// 获取所有任务集
         /// </summary>
@@ -25,6 +47,7 @@ namespace TaskManager.Core.API.Controllers
         {
             return await detailedSetService.Query();
         }
+
         /// <summary>
         /// 根据用户获取所有任务集
         /// </summary>
@@ -35,6 +58,7 @@ namespace TaskManager.Core.API.Controllers
         {
             return await detailedSetService.QueryByCreater(creatermail);
         }
+
         /// <summary>
         /// 获取所有公开任务集
         /// </summary>
@@ -44,6 +68,7 @@ namespace TaskManager.Core.API.Controllers
         {
             return await detailedSetService.QueryByState(1);
         }
+
         /// <summary>
         /// 创建任务集
         /// </summary>
@@ -63,6 +88,34 @@ namespace TaskManager.Core.API.Controllers
             return await setService.Add(model);
         }
         /// <summary>
+        /// 删除任务集
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        [HttpPost("DeleteSet")]
+        public async Task<bool> DeleteSet(string id)
+        {
+            return await setService.DeleteById(id);
+        }
+        /// <summary>
+        /// 更新任务集
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="name"></param>
+        /// <param name="createtime"></param>
+        /// <param name="tag"></param>
+        /// <param name="ddl"></param>
+        /// <param name="creatermail"></param>
+        /// <param name="state"></param>
+        /// <returns></returns>
+        [HttpPost("UpdateSet")]
+        public async Task<bool> UpdateSet(string id, string name, DateTime createtime, string tag, DateTime ddl, string creatermail, int state)
+        {
+            Set model = new Set(id, name, createtime, tag, ddl, creatermail, state);
+            return await setService.Update(model);
+        }
+
+        /// <summary>
         /// 获取某任务集的所有任务
         /// </summary>
         /// <param name="id"></param>
@@ -72,6 +125,7 @@ namespace TaskManager.Core.API.Controllers
         {
             return await todoService.Query(d => d.Setid == id);
         }
+
         /// <summary>
         /// 创建新任务
         /// </summary>
@@ -88,18 +142,7 @@ namespace TaskManager.Core.API.Controllers
             Todo model = new Todo(id, name, deadline, finishtime, state, setid);
             return await todoService.Add(model);
         }
-        /// <summary>
-        /// 登录
-        /// </summary>
-        /// <param name="mail"></param>
-        /// <param name="pass"></param>
-        /// <returns></returns>
-        [HttpGet("Login")]
-        public async Task<bool> Login(string mail,string pass)
-        {
-            User model = await userService.QueryByID(mail);
-            return pass == model.Password;
-        }
+
         /// <summary>
         /// 删除任务
         /// </summary>
@@ -110,15 +153,44 @@ namespace TaskManager.Core.API.Controllers
         {
             return await todoService.DeleteById(id);
         }
+        
         /// <summary>
-        /// 删除任务集
+        /// 更新任务
         /// </summary>
         /// <param name="id"></param>
+        /// <param name="name"></param>
+        /// <param name="deadline"></param>
+        /// <param name="finishtime"></param>
+        /// <param name="state"></param>
+        /// <param name="setid"></param>
         /// <returns></returns>
-        [HttpPost("DeleteSet")]
-        public async Task<bool> DeleteSet(string id)
+        [HttpPost("UpdateTodo")]
+        public async Task<bool> UpdateTodo(string id, string name, DateTime deadline, DateTime finishtime, int state, string setid)
         {
-            return await setService.DeleteById(id);
+            Todo model = new Todo(id, name, deadline, finishtime, state, setid);
+            return await todoService.Update(model);
         }
+        
+
+        [HttpPost("CollectSet")]
+        public async Task<int> CollectSet(string mail, string setid, DateTime time)
+        {
+            Collect model = new Collect(mail, setid, time);
+            return await collectService.Add(model);
+        }
+        [HttpPost("UncollectSet")]
+        public async Task<bool> UncollectSet(string mail, string setid, DateTime time)
+        {
+            Collect model = new Collect(mail, setid, time);
+            return await collectService.Delete(model);
+        }
+
+        [HttpGet("GetActiveMap")]
+        public async Task<List<ActiveMap>> GetActiveMap ()
+        {
+            IActiveMapService activeMapService = new ActivieMapService();
+            return await activeMapService.Query();
+        }
+
     }
 }

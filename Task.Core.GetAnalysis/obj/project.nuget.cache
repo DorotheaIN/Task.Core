@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QOgNV3+ZZRol1KxKBv+8Y7b7zJDYWGTF5PmR2xxwW1vc2TG/ne6iOVo6AQa6eW/aj5cNfHIvTqzRUGW5DZ+A7g==",
+  "dgSpecHash": "UL5AAEwUfU6gpf80TXkvZPbWzJGkDdAT9ctpIdRy31rPXQFKaRzwElQD9IwcBCvSgL91mQUo0m9mWfpmnyJ5iQ==",
   "success": true,
-  "projectFilePath": "D:\\yze\\bachelor\\third\\courses\\Next\\.Net\\期末\\Task.Core\\Blog.Core.Repository\\Blog.Core.Repository.csproj",
+  "projectFilePath": "D:\\yze\\bachelor\\third\\courses\\Next\\.Net\\期末\\Task.Core\\GetAnalysis\\TaskManager.Core.GetAnalysis.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dorothea\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
     "C:\\Users\\Dorothea\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",

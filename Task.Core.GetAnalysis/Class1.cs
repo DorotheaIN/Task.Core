@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Blog.Core.Repository
+namespace GetAnalysis
 {
     public class Class1
     {

@@ -6,7 +6,7 @@ public class User
     /// <summary>
     /// 用户邮箱
     /// </summary>
-    public string mail { get; set; }
+    public string Mail { get; set; }
     /// <summary>
     /// 用户名
     /// </summary>
@@ -22,5 +22,5 @@ public class User
     /// <summary>
     /// 用户创建时间
     /// </summary>
-    public DateTime Time { get; set; } = DateTime.Now;
+    public DateTime Time { get; set; }
 }

@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32510.428
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManager.Core.API", "Task.Core.API\TaskManager.Core.API.csproj", "{B76984F9-38C4-4465-B902-07381A4E5975}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManager.Core.API", "Task.Core.API\TaskManager.Core.API.csproj", "{B76984F9-38C4-4465-B902-07381A4E5975}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManager.Core.Model", "Task.Core.Model\TaskManager.Core.Model.csproj", "{042264D0-031D-4433-B2B1-FFD08F182E70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManager.Core.Model", "Task.Core.Model\TaskManager.Core.Model.csproj", "{042264D0-031D-4433-B2B1-FFD08F182E70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManager.Core.Repository", "Taks.Core.Repository\TaskManager.Core.Repository.csproj", "{32AAC97C-E50D-44A4-9F97-7262F5E12AA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManager.Core.Repository", "Taks.Core.Repository\TaskManager.Core.Repository.csproj", "{32AAC97C-E50D-44A4-9F97-7262F5E12AA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManager.Core.IRepository", "Task.Core.IRepository\TaskManager.Core.IRepository.csproj", "{BB1DAA0F-60FE-4551-A3E3-48528F035CEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManager.Core.IRepository", "Task.Core.IRepository\TaskManager.Core.IRepository.csproj", "{BB1DAA0F-60FE-4551-A3E3-48528F035CEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManager.Core.IService", "Task.Core.IService\TaskManager.Core.IService.csproj", "{C0FC3BBE-4FBF-4BE0-8019-2976351EDEF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManager.Core.IService", "Task.Core.IService\TaskManager.Core.IService.csproj", "{C0FC3BBE-4FBF-4BE0-8019-2976351EDEF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManager.Core.Service", "Task.Core.Service\TaskManager.Core.Service.csproj", "{72D2F079-B075-4F35-89FF-3E5C35C636BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManager.Core.Service", "Task.Core.Service\TaskManager.Core.Service.csproj", "{72D2F079-B075-4F35-89FF-3E5C35C636BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
