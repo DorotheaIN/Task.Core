@@ -15,12 +15,11 @@ public class User
     /// 用户密码
     /// </summary>
     public string Password { get; set; }
-    /// <summary>
-    /// 用户介绍
-    /// </summary>
-    public string Intro { get; set; }
+
     /// <summary>
     /// 用户创建时间
     /// </summary>
     public DateTime Time { get; set; }
+
+    public string Avator { get; set; }
 }

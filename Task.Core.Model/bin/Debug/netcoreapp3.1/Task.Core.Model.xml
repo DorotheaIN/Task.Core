@@ -151,11 +151,6 @@
             用户密码
             </summary>
         </member>
-        <member name="P:User.Intro">
-            <summary>
-            用户介绍
-            </summary>
-        </member>
         <member name="P:User.Time">
             <summary>
             用户创建时间

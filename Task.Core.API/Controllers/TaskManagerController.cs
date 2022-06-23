@@ -25,18 +25,30 @@ namespace TaskManager.Core.API.Controllers
         /// <param name="pass"></param>
         /// <returns></returns>
         [HttpGet("Login")]
-        public async Task<string> Login(string mail, string pass)
+        public async Task<LoginState> Login(string mail, string pass)
         {
             User model = await userService.QueryByID(mail);
-            if(pass == model.Password)
+            LoginState loginState = new LoginState();
+            if (pass == model.Password)
             {
-                return model.Name;
+                loginState.token = "admin-token";
+                loginState.name = model.Name;
+                loginState.avator = model.Avator;
+                return loginState;
             }
             else
             {
-                return "";
+                loginState.token = "";
+                return loginState;
             }
         }
+        [HttpGet("GetUserByMail")]
+        public async Task<User> GetUserByMail(string mail)
+        {
+            return await userService.QueryByID(mail);
+        }
+
+
 
         /// <summary>
         /// 获取所有任务集
@@ -184,12 +196,31 @@ namespace TaskManager.Core.API.Controllers
             Collect model = new Collect(mail, setid, time);
             return await collectService.Delete(model);
         }
+        [HttpGet("GetCollectState")]
+        public async Task<bool> GetCollectState(string mail,string setid)
+        {
+            List<Collect> collects = await collectService.Query(d => d.Mail == mail);
+            var isExisted = collects.Find(m => m.Setid == setid);
+            if(isExisted == null || isExisted.Setid == "string")
+            {
+                return false;
+            }else
+            {
+                return true;
+            }
+        }
 
         [HttpGet("GetActiveMap")]
-        public async Task<List<ActiveMap>> GetActiveMap ()
+        public async Task<List<ActiveMap>> GetActiveMap (string mail)
         {
             IActiveMapService activeMapService = new ActivieMapService();
-            return await activeMapService.Query();
+            return await activeMapService.Query(mail);
+        }
+
+        [HttpGet("GetCollectSet")]
+        public async Task<List<DetailedSet>> GetCollectSet(string mail)
+        {
+            return await detailedSetService.QueryCollectSet(mail);
         }
 
     }

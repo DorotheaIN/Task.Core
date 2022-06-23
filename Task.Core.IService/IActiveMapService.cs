@@ -7,6 +7,6 @@ namespace TaskManager.Core.IService
 {
     public interface IActiveMapService
     {
-        Task<List<ActiveMap>> Query();
+        Task<List<ActiveMap>> Query(string mail);
     }
 }

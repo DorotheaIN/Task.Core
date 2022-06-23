@@ -14,5 +14,7 @@ namespace TaskManager.Core.IService
         Task<List<DetailedSet>> Modify(List<Set> sets);
 
         Task<List<DetailedSet>> QueryByState(int state);
+
+        Task<List<DetailedSet>> QueryCollectSet(string mail);
     }
 }
