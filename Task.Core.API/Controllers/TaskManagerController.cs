@@ -17,6 +17,7 @@ namespace TaskManager.Core.API.Controllers
         IDetailedSetService detailedSetService = new DetailedSetService();
         IUserService userService = new UserService();
         ICollectService collectService = new CollectService();
+        InvokeCon invokeCon = new InvokeCon();
 
         /// <summary>
         /// 登录
@@ -31,7 +32,7 @@ namespace TaskManager.Core.API.Controllers
             LoginState loginState = new LoginState();
             if (pass == model.Password)
             {
-                loginState.token = "admin-token";
+                loginState.token = invokeCon.GetTokenCli().ToString();
                 loginState.name = model.Name;
                 loginState.avator = model.Avator;
                 return loginState;
@@ -46,6 +47,12 @@ namespace TaskManager.Core.API.Controllers
         public async Task<User> GetUserByMail(string mail)
         {
             return await userService.QueryByID(mail);
+        }
+
+        [HttpGet("amul")]
+        public int Mmul(int a, int b)
+        {
+            return invokeCon.MultiplicationCli(a, b);
         }
 
 

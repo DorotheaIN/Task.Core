@@ -2204,6 +2204,24 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
+      "CilDll/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/CilDll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CilDll.dll": {}
+        }
+      },
+      "Task.Core.Token/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Task.Core.Token.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Task.Core.Token.dll": {}
+        }
+      },
       "TaskManager.Core.IRepository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -7454,6 +7472,16 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
+    "CilDll/1.0.0": {
+      "type": "project",
+      "path": "../CilDll/CilDll.vcxproj",
+      "msbuildProject": "../CilDll/CilDll.vcxproj"
+    },
+    "Task.Core.Token/1.0.0": {
+      "type": "project",
+      "path": "../Task.Core.Token/Task.Core.Token.vcxproj",
+      "msbuildProject": "../Task.Core.Token/Task.Core.Token.vcxproj"
+    },
     "TaskManager.Core.IRepository/1.0.0": {
       "type": "project",
       "path": "../Task.Core.IRepository/TaskManager.Core.IRepository.csproj",
@@ -7482,7 +7510,9 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "CilDll >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3",
+      "Task.Core.Token >= 1.0.0",
       "TaskManager.Core.IService >= 1.0.0",
       "TaskManager.Core.Model >= 1.0.0",
       "TaskManager.Core.Service >= 1.0.0"
@@ -7520,6 +7550,9 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
+            "D:\\yze\\bachelor\\third\\courses\\Next\\.Net\\期末\\Task.Core\\CilDll\\CilDll.vcxproj": {
+              "projectPath": "D:\\yze\\bachelor\\third\\courses\\Next\\.Net\\期末\\Task.Core\\CilDll\\CilDll.vcxproj"
+            },
             "D:\\yze\\bachelor\\third\\courses\\Next\\.Net\\期末\\Task.Core\\Task.Core.IService\\TaskManager.Core.IService.csproj": {
               "projectPath": "D:\\yze\\bachelor\\third\\courses\\Next\\.Net\\期末\\Task.Core\\Task.Core.IService\\TaskManager.Core.IService.csproj"
             },
@@ -7528,6 +7561,9 @@
             },
             "D:\\yze\\bachelor\\third\\courses\\Next\\.Net\\期末\\Task.Core\\Task.Core.Service\\TaskManager.Core.Service.csproj": {
               "projectPath": "D:\\yze\\bachelor\\third\\courses\\Next\\.Net\\期末\\Task.Core\\Task.Core.Service\\TaskManager.Core.Service.csproj"
+            },
+            "D:\\yze\\bachelor\\third\\courses\\Next\\.Net\\期末\\Task.Core\\Task.Core.Token\\Task.Core.Token.vcxproj": {
+              "projectPath": "D:\\yze\\bachelor\\third\\courses\\Next\\.Net\\期末\\Task.Core\\Task.Core.Token\\Task.Core.Token.vcxproj"
             }
           }
         }
@@ -7563,7 +7599,7 @@
             "version": "[3.1.10, 3.1.10]"
           },
           {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "name": "Microsoft.NETCore.App.Host.win-x86",
             "version": "[3.1.22, 3.1.22]"
           },
           {

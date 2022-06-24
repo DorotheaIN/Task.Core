@@ -1,0 +1,13 @@
+﻿  CalculateData.cpp
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.Token\CalculateData.cpp(2,1): warning C4005: “Calculate_EXPORTS”: 宏重定义
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.Token\CalculateData.h(12): message : 参见“Calculate_EXPORTS”的前一个定义
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.Token\CalculateData.cpp(4,1): warning C4273: “Add”: dll 链接不一致
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.Token\CalculateData.h(15,34): message : 参见“Add”的前一个定义
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.Token\CalculateData.cpp(9,1): warning C4273: “Subtract”: dll 链接不一致
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.Token\CalculateData.h(17,34): message : 参见“Subtract”的前一个定义
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.Token\CalculateData.cpp(14,1): warning C4273: “Multiplication”: dll 链接不一致
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.Token\CalculateData.h(19,34): message : 参见“Multiplication”的前一个定义
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.Token\CalculateData.cpp(19,1): warning C4273: “Divided”: dll 链接不一致
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.Token\CalculateData.h(21,35): message : 参见“Divided”的前一个定义
+    正在创建库 D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.Service\bin\Debug\netcoreapp3.1\Task.Core.Token.lib 和对象 D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.Service\bin\Debug\netcoreapp3.1\Task.Core.Token.exp
+  Task.Core.Token.vcxproj -> D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.Service\bin\Debug\netcoreapp3.1\Task.Core.Token.dll

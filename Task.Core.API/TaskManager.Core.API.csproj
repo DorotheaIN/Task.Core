@@ -8,7 +8,7 @@
     <DocumentationFile>D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.API\Task.Core.API.xml</DocumentationFile>
     <NoWarn>1701;1702;1591</NoWarn>
     <WarningLevel>5</WarningLevel>
-    <PlatformTarget>x64</PlatformTarget>
+    <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
 
   <ItemGroup>
@@ -16,9 +16,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CilDll\CilDll.vcxproj" />
     <ProjectReference Include="..\Task.Core.IService\TaskManager.Core.IService.csproj" />
     <ProjectReference Include="..\Task.Core.Model\TaskManager.Core.Model.csproj" />
     <ProjectReference Include="..\Task.Core.Service\TaskManager.Core.Service.csproj" />
+    <ProjectReference Include="..\Task.Core.Token\Task.Core.Token.vcxproj" />
   </ItemGroup>
 
 

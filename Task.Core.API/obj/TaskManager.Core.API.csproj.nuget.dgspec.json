@@ -4,6 +4,21 @@
     "D:\\yze\\bachelor\\third\\courses\\Next\\.Net\\期末\\Task.Core\\Task.Core.API\\TaskManager.Core.API.csproj": {}
   },
   "projects": {
+    "D:\\yze\\bachelor\\third\\courses\\Next\\.Net\\期末\\Task.Core\\CilDll\\CilDll.vcxproj": {
+      "restore": {
+        "projectUniqueName": "D:\\yze\\bachelor\\third\\courses\\Next\\.Net\\期末\\Task.Core\\CilDll\\CilDll.vcxproj",
+        "projectName": "CilDll",
+        "projectPath": "D:\\yze\\bachelor\\third\\courses\\Next\\.Net\\期末\\Task.Core\\CilDll\\CilDll.vcxproj",
+        "frameworks": {
+          "native": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "native": {}
+      }
+    },
     "D:\\yze\\bachelor\\third\\courses\\Next\\.Net\\期末\\Task.Core\\Taks.Core.Repository\\TaskManager.Core.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -117,6 +132,9 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
+              "D:\\yze\\bachelor\\third\\courses\\Next\\.Net\\期末\\Task.Core\\CilDll\\CilDll.vcxproj": {
+                "projectPath": "D:\\yze\\bachelor\\third\\courses\\Next\\.Net\\期末\\Task.Core\\CilDll\\CilDll.vcxproj"
+              },
               "D:\\yze\\bachelor\\third\\courses\\Next\\.Net\\期末\\Task.Core\\Task.Core.IService\\TaskManager.Core.IService.csproj": {
                 "projectPath": "D:\\yze\\bachelor\\third\\courses\\Next\\.Net\\期末\\Task.Core\\Task.Core.IService\\TaskManager.Core.IService.csproj"
               },
@@ -125,6 +143,9 @@
               },
               "D:\\yze\\bachelor\\third\\courses\\Next\\.Net\\期末\\Task.Core\\Task.Core.Service\\TaskManager.Core.Service.csproj": {
                 "projectPath": "D:\\yze\\bachelor\\third\\courses\\Next\\.Net\\期末\\Task.Core\\Task.Core.Service\\TaskManager.Core.Service.csproj"
+              },
+              "D:\\yze\\bachelor\\third\\courses\\Next\\.Net\\期末\\Task.Core\\Task.Core.Token\\Task.Core.Token.vcxproj": {
+                "projectPath": "D:\\yze\\bachelor\\third\\courses\\Next\\.Net\\期末\\Task.Core\\Task.Core.Token\\Task.Core.Token.vcxproj"
               }
             }
           }
@@ -160,7 +181,7 @@
               "version": "[3.1.10, 3.1.10]"
             },
             {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "name": "Microsoft.NETCore.App.Host.win-x86",
               "version": "[3.1.22, 3.1.22]"
             },
             {
@@ -494,6 +515,21 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "D:\\yze\\bachelor\\third\\courses\\Next\\.Net\\期末\\Task.Core\\Task.Core.Token\\Task.Core.Token.vcxproj": {
+      "restore": {
+        "projectUniqueName": "D:\\yze\\bachelor\\third\\courses\\Next\\.Net\\期末\\Task.Core\\Task.Core.Token\\Task.Core.Token.vcxproj",
+        "projectName": "Task.Core.Token",
+        "projectPath": "D:\\yze\\bachelor\\third\\courses\\Next\\.Net\\期末\\Task.Core\\Task.Core.Token\\Task.Core.Token.vcxproj",
+        "frameworks": {
+          "native": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "native": {}
       }
     }
   }

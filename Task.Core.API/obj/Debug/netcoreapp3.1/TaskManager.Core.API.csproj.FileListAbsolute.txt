@@ -3,7 +3,6 @@ D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.API\obj\Debug
 D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.API\obj\Debug\netcoreapp3.1\TaskManager.Core.API.AssemblyInfoInputs.cache
 D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.API\obj\Debug\netcoreapp3.1\TaskManager.Core.API.AssemblyInfo.cs
 D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.API\obj\Debug\netcoreapp3.1\TaskManager.Core.API.csproj.CoreCompileInputs.cache
-D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.API\obj\Debug\netcoreapp3.1\TaskManager.Core.API.MvcApplicationPartsAssemblyInfo.cs
 D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.API\obj\Debug\netcoreapp3.1\TaskManager.Core.API.MvcApplicationPartsAssemblyInfo.cache
 D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.API\bin\Debug\netcoreapp3.1\appsettings.json
@@ -76,3 +75,6 @@ D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.API\obj\Debug
 D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.API\obj\Debug\netcoreapp3.1\TaskManager.Core.API.dll
 D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.API\obj\Debug\netcoreapp3.1\TaskManager.Core.API.pdb
 D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.API\obj\Debug\netcoreapp3.1\TaskManager.Core.API.genruntimeconfig.cache
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.API\bin\Debug\netcoreapp3.1\CilDll.dll
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.API\bin\Debug\netcoreapp3.1\CilDll.pdb
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.API\obj\Debug\netcoreapp3.1\TaskManager.Core.API.MvcApplicationPartsAssemblyInfo.cs

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0ccZQlpf8j62rQDik2L0QtgV/8w1FrFu+RzMlYdMg4jYI80382ftlNKODytDE1AGfO+ha9eyKMDUy2OmkctIUw==",
+  "dgSpecHash": "kbvgFYhGBgDnNtsKxaPQWfI0idkNfWqx6kN563hFzuxolQWV40TqSYKBkPGEx8OLeiSy43aMWbgOQXmR0bsFlA==",
   "success": true,
   "projectFilePath": "D:\\yze\\bachelor\\third\\courses\\Next\\.Net\\期末\\Task.Core\\Task.Core.API\\TaskManager.Core.API.csproj",
   "expectedPackageFiles": [
@@ -139,10 +139,10 @@
     "C:\\Users\\Dorothea\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Dorothea\\.nuget\\packages\\system.xml.xpath\\4.0.1\\system.xml.xpath.4.0.1.nupkg.sha512",
     "C:\\Users\\Dorothea\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.0.1\\system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
-    "C:\\Users\\Dorothea\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512",
     "C:\\Users\\Dorothea\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
     "C:\\Users\\Dorothea\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\Dorothea\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+    "C:\\Users\\Dorothea\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Dorothea\\.nuget\\packages\\microsoft.netcore.app.host.win-x86\\3.1.22\\microsoft.netcore.app.host.win-x86.3.1.22.nupkg.sha512"
   ],
   "logs": []
 }
