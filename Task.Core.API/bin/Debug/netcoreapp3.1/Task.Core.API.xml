@@ -4,38 +4,19 @@
         <name>TaskManager.Core.API</name>
     </assembly>
     <members>
-        <member name="M:TaskManager.Core.API.Controllers.TaskController.Get(System.Int32,System.Int32)">
-            <summary>
-            Sum接口
-            </summary>
-            <param name="i">参数i</param>
-            <param name="j">参数j</param>
-            <returns></returns>
-        </member>
-        <member name="M:TaskManager.Core.API.Controllers.TaskController.Get(System.Int32)">
-            <summary>
-            根据id获取数据
-            </summary>
-            <param name="id">参数id</param>
-            <returns></returns>
-        </member>
-        <member name="M:TaskManager.Core.API.Controllers.TaskController.Add(System.Int32,System.String,System.Int32,System.String,System.DateTime)">
-            <summary>
-            添加任务集
-            </summary>
-            <param name="id"></param>
-            <param name="name"></param>
-            <param name="createrId"></param>
-            <param name="tag"></param>
-            <param name="time"></param>
-            <returns></returns>
-        </member>
         <member name="M:TaskManager.Core.API.Controllers.TaskManagerController.Login(System.String,System.String)">
             <summary>
             登录
             </summary>
             <param name="mail"></param>
             <param name="pass"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TaskManager.Core.API.Controllers.TaskManagerController.GetUserByMail(System.String)">
+            <summary>
+            根据邮箱获取用户信息
+            </summary>
+            <param name="mail"></param>
             <returns></returns>
         </member>
         <member name="M:TaskManager.Core.API.Controllers.TaskManagerController.GetAllSet">
@@ -128,22 +109,45 @@
             <param name="setid"></param>
             <returns></returns>
         </member>
-        <member name="T:TaskManager.Core.API.Controllers.WeatherForecastController">
+        <member name="M:TaskManager.Core.API.Controllers.TaskManagerController.CollectSet(System.String,System.String,System.DateTime)">
             <summary>
-            天气控制器
+            收藏任务集
             </summary>
-        </member>
-        <member name="M:TaskManager.Core.API.Controllers.WeatherForecastController.Get">
-            <summary>
-            返回天气信息
-            </summary>
+            <param name="mail"></param>
+            <param name="setid"></param>
+            <param name="time"></param>
             <returns></returns>
         </member>
-        <member name="M:TaskManager.Core.API.Controllers.WeatherForecastController.Post(Love)">
+        <member name="M:TaskManager.Core.API.Controllers.TaskManagerController.UncollectSet(System.String,System.String,System.DateTime)">
             <summary>
-            post请求数据
+            取消收藏任务集
             </summary>
-            <param name="love"></param>
+            <param name="mail"></param>
+            <param name="setid"></param>
+            <param name="time"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TaskManager.Core.API.Controllers.TaskManagerController.GetCollectState(System.String,System.String)">
+            <summary>
+            获取收藏状态
+            </summary>
+            <param name="mail"></param>
+            <param name="setid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TaskManager.Core.API.Controllers.TaskManagerController.GetActiveMap(System.String)">
+            <summary>
+            获取活动图
+            </summary>
+            <param name="mail"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TaskManager.Core.API.Controllers.TaskManagerController.GetCollectSet(System.String)">
+            <summary>
+            获取收藏的任务集
+            </summary>
+            <param name="mail"></param>
+            <returns></returns>
         </member>
     </members>
 </doc>

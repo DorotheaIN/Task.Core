@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>TaskManager.Core.Model</id>
+    <version>1.0.0</version>
+    <authors>TaskManager.Core.Model</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Swashbuckle.AspNetCore" version="5.6.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.Model\bin\Release\netcoreapp3.1\TaskManager.Core.Model.dll" target="lib\netcoreapp3.1\TaskManager.Core.Model.dll" />
+  </files>
+</package>

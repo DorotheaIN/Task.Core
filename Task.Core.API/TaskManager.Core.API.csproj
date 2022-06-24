@@ -11,12 +11,18 @@
     <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\CilDll\CilDll.vcxproj" />
+    <ProjectReference Include="..\Taks.Core.Repository\TaskManager.Core.Repository.csproj" />
+    <ProjectReference Include="..\Task.Core.IRepository\TaskManager.Core.IRepository.csproj" />
     <ProjectReference Include="..\Task.Core.IService\TaskManager.Core.IService.csproj" />
     <ProjectReference Include="..\Task.Core.Model\TaskManager.Core.Model.csproj" />
     <ProjectReference Include="..\Task.Core.Service\TaskManager.Core.Service.csproj" />

@@ -71,7 +71,9 @@ namespace TaskManager.Core.API
 
             app.UseRouting();
 
-            app.UseAuthorization();
+/*            app.UseAuthentication();
+
+            app.UseAuthorization();*/
 
             app.UseEndpoints(endpoints =>
             {

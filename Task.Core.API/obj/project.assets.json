@@ -7513,8 +7513,10 @@
       "CilDll >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3",
       "Task.Core.Token >= 1.0.0",
+      "TaskManager.Core.IRepository >= 1.0.0",
       "TaskManager.Core.IService >= 1.0.0",
       "TaskManager.Core.Model >= 1.0.0",
+      "TaskManager.Core.Repository >= 1.0.0",
       "TaskManager.Core.Service >= 1.0.0"
     ]
   },
@@ -7552,6 +7554,12 @@
           "projectReferences": {
             "D:\\yze\\bachelor\\third\\courses\\Next\\.Net\\期末\\Task.Core\\CilDll\\CilDll.vcxproj": {
               "projectPath": "D:\\yze\\bachelor\\third\\courses\\Next\\.Net\\期末\\Task.Core\\CilDll\\CilDll.vcxproj"
+            },
+            "D:\\yze\\bachelor\\third\\courses\\Next\\.Net\\期末\\Task.Core\\Taks.Core.Repository\\TaskManager.Core.Repository.csproj": {
+              "projectPath": "D:\\yze\\bachelor\\third\\courses\\Next\\.Net\\期末\\Task.Core\\Taks.Core.Repository\\TaskManager.Core.Repository.csproj"
+            },
+            "D:\\yze\\bachelor\\third\\courses\\Next\\.Net\\期末\\Task.Core\\Task.Core.IRepository\\TaskManager.Core.IRepository.csproj": {
+              "projectPath": "D:\\yze\\bachelor\\third\\courses\\Next\\.Net\\期末\\Task.Core\\Task.Core.IRepository\\TaskManager.Core.IRepository.csproj"
             },
             "D:\\yze\\bachelor\\third\\courses\\Next\\.Net\\期末\\Task.Core\\Task.Core.IService\\TaskManager.Core.IService.csproj": {
               "projectPath": "D:\\yze\\bachelor\\third\\courses\\Next\\.Net\\期末\\Task.Core\\Task.Core.IService\\TaskManager.Core.IService.csproj"

@@ -43,18 +43,28 @@ namespace TaskManager.Core.API.Controllers
                 return loginState;
             }
         }
+        /// <summary>
+        /// 根据邮箱获取用户信息
+        /// </summary>
+        /// <param name="mail"></param>
+        /// <returns></returns>
         [HttpGet("GetUserByMail")]
         public async Task<User> GetUserByMail(string mail)
         {
             return await userService.QueryByID(mail);
         }
-
+/*        /// <summary>
+        /// 乘法
+        /// </summary>
+        /// <param name="a"></param>
+        /// <param name="b"></param>
+        /// <returns></returns>
         [HttpGet("amul")]
         public int Mmul(int a, int b)
         {
             return invokeCon.MultiplicationCli(a, b);
         }
-
+*/
 
 
         /// <summary>
@@ -190,19 +200,38 @@ namespace TaskManager.Core.API.Controllers
             return await todoService.Update(model);
         }
         
-
+        /// <summary>
+        /// 收藏任务集
+        /// </summary>
+        /// <param name="mail"></param>
+        /// <param name="setid"></param>
+        /// <param name="time"></param>
+        /// <returns></returns>
         [HttpPost("CollectSet")]
         public async Task<int> CollectSet(string mail, string setid, DateTime time)
         {
             Collect model = new Collect(mail, setid, time);
             return await collectService.Add(model);
         }
+        /// <summary>
+        /// 取消收藏任务集
+        /// </summary>
+        /// <param name="mail"></param>
+        /// <param name="setid"></param>
+        /// <param name="time"></param>
+        /// <returns></returns>
         [HttpPost("UncollectSet")]
         public async Task<bool> UncollectSet(string mail, string setid, DateTime time)
         {
             Collect model = new Collect(mail, setid, time);
             return await collectService.Delete(model);
         }
+        /// <summary>
+        /// 获取收藏状态
+        /// </summary>
+        /// <param name="mail"></param>
+        /// <param name="setid"></param>
+        /// <returns></returns>
         [HttpGet("GetCollectState")]
         public async Task<bool> GetCollectState(string mail,string setid)
         {
@@ -216,14 +245,22 @@ namespace TaskManager.Core.API.Controllers
                 return true;
             }
         }
-
+        /// <summary>
+        /// 获取活动图
+        /// </summary>
+        /// <param name="mail"></param>
+        /// <returns></returns>
         [HttpGet("GetActiveMap")]
         public async Task<List<ActiveMap>> GetActiveMap (string mail)
         {
             IActiveMapService activeMapService = new ActivieMapService();
             return await activeMapService.Query(mail);
         }
-
+        /// <summary>
+        /// 获取收藏的任务集
+        /// </summary>
+        /// <param name="mail"></param>
+        /// <returns></returns>
         [HttpGet("GetCollectSet")]
         public async Task<List<DetailedSet>> GetCollectSet(string mail)
         {
