@@ -30,7 +30,8 @@ namespace TaskManager.Core.Service
             {
                 if (setids.Contains(todo.Setid))
                 {
-                    IntPtr pR = Get(todo.Finishtime.ToString("yyyy/MM/dd HH:mm:ss").ToCharArray());
+                    string date = todo.Finishtime.ToString("yyyy/MM/dd HH:mm:ss");
+                    IntPtr pR = Get(date.ToCharArray());
                     string strR = Marshal.PtrToStringAnsi(pR);
                     var isExisted = activeMaps.Find(m => m.date == strR);
                     if (isExisted == null || isExisted.count == 0)

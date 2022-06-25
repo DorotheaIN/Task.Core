@@ -111,31 +111,6 @@
             任务集
             </summary>
         </member>
-        <member name="P:TaskSet.Id">
-            <summary>
-            任务集主键
-            </summary>
-        </member>
-        <member name="P:TaskSet.Name">
-            <summary>
-            任务集名称
-            </summary>
-        </member>
-        <member name="P:TaskSet.CreaterId">
-            <summary>
-            创造者id
-            </summary>
-        </member>
-        <member name="P:TaskSet.tag">
-            <summary>
-            标签
-            </summary>
-        </member>
-        <member name="P:TaskSet.CreateTime">
-            <summary>
-            创建时间
-            </summary>
-        </member>
         <member name="P:User.Mail">
             <summary>
             用户邮箱

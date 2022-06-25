@@ -1,7 +1,6 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(499,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
   CalculateData.cpp
-D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.Token\CalculateData.cpp(2,1): warning C4005: “Calculate_EXPORTS”: 宏重定义
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.Token\CalculateData.cpp(6,1): warning C4005: “Calculate_EXPORTS”: 宏重定义
 D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.Token\CalculateData.h(10): message : 参见“Calculate_EXPORTS”的前一个定义
-  LINK : 没有找到 ..\Task.Core.API\bin\Debug\netcoreapp3.1\Task.Core.Token.dll 或上一个增量链接没有生成它；正在执行完全链接
     正在创建库 ..\Task.Core.API\bin\Debug\netcoreapp3.1\Task.Core.Token.lib 和对象 ..\Task.Core.API\bin\Debug\netcoreapp3.1\Task.Core.Token.exp
   Task.Core.Token.vcxproj -> D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.API\bin\Debug\netcoreapp3.1\Task.Core.Token.dll

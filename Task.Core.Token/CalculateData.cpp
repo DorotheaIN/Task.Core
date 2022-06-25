@@ -1,30 +1,17 @@
 #include "CalculateData.h"
+#include <objbase.h>
+#include <fstream>
+#include <cstdlib>
+#include <ctime>
 #define Calculate_EXPORTS
 Calculate_EXPORTS int Add(int numberA, int numberB)
 {
     return numberA + numberB;
 }
 
-Calculate_EXPORTS int Subtract(int numberA, int numberB)
-{
-    return numberA - numberB;
-}
-
-Calculate_EXPORTS int Multiplication(int numberA, int numberB)
-{
-    return numberA * numberB;
-}
-
-Calculate_EXPORTS int Divided(int numberA, int numberB)
-{
-    if (numberB == 0) {
-        std::cout << "除数不能为空" << std::endl;
-    }
-    return numberA / numberB;
-}
-
 Calculate_EXPORTS int GetToken()
 {
+    srand((unsigned)time(NULL));
     return rand();
 }
 

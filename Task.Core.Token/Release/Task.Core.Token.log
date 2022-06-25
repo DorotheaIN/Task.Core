@@ -1,8 +1,11 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(499,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+  CalculateData.cpp
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.Token\CalculateData.cpp(3,1): warning C4005: “Calculate_EXPORTS”: 宏重定义
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.Token\CalculateData.h(10): message : 参见“Calculate_EXPORTS”的前一个定义
     正在创建库 ..\Task.Core.API\bin\Debug\netcoreapp3.1\Task.Core.Token.lib 和对象 ..\Task.Core.API\bin\Debug\netcoreapp3.1\Task.Core.Token.exp
   正在生成代码
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.Token\CalculateData.cpp(38): warning C4172: 返回局部变量或临时变量的地址: buf
+  All 15 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   已完成代码的生成
-  0 of 15 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
   Task.Core.Token.vcxproj -> D:\yze\bachelor\third\courses\Next\.Net\期末\Task.Core\Task.Core.API\bin\Debug\netcoreapp3.1\Task.Core.Token.dll
